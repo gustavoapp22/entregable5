@@ -16,12 +16,14 @@ function App() {
       <div className='App'>
         <Routes>
           <Route path="/" element={<Users />} />
-           
-        
+           <Route element={<ProtectedRoutes/>}>
+
           <Route path="/pokedex/:name" element={<Pokedex />} />
           <Route path="/pokedexx/:id" element={<Pookedexx />} />
           <Route path="/red" element={<Red/>} />
           
+           </Route>
+        
 
         </Routes>
       </div>
