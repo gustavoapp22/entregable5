@@ -3,7 +3,7 @@ import './App.css'
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Users from './components/Users'
 import Pookedexx from './components/Pookedexx';
-import Pokedex from './components/pokedex';
+import Pokedex from './components/Pokedex';
  import ProtectedRoutes from './components/ProtectedRoutes';
 import Red from './components/Red';
 
