@@ -4,7 +4,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import Users from './components/Users'
 import Pookedexx from './components/Pookedexx';
 import Red from './components/Red';
-import Pokedex from './components/pokedex';
+import Pokedex from './components/Pokedex';
 
 
 function App() {
